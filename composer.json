@@ -1,0 +1,19 @@
+{
+    "name": "iextra/class-loader",
+    "description": "Class Loader",
+    "type": "class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iextra",
+            "email": "denis.k@phpdev.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Extra\\": "src\\Extra"
+        }
+    }
+}
