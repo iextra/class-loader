@@ -13,7 +13,6 @@ class ClassLoader
         self::$documentRoot = $documentRoot ?? $_SERVER['DOCUMENT_ROOT'];
 
         spl_autoload_register(function($className){
-            echo $className . '<br>';
             self::autoLoad($className);
         });
     }
